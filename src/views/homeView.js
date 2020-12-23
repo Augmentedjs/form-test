@@ -41,7 +41,7 @@ class HomeView extends AutomaticForm {
       "resetButton": "Reset",
       "uri": `/users/${data.identifier}`,
       "data": data,
-      "display": null,
+      "display": ["name", "born", "spouse"],
       "large": true
     });
   };
