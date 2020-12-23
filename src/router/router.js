@@ -31,10 +31,10 @@ class Router extends BaseRouter {
       "transition": TRANSITION,
       "routes": {
         "": () => {
-          return loadViewAndObserve(this, new HomeView(LENNON));
+          return loadViewAndObserve(this, new HomeView({}));
         },
         "home": () => {
-          return loadViewAndObserve(this, new HomeView(LENNON));
+          return loadViewAndObserve(this, new HomeView({}));
         }
       }
     });
